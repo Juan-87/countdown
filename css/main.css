@@ -1,0 +1,47 @@
+body {
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 2.4em;
+}
+
+#app {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 75px;
+    z-index: 10;
+}
+
+#overlay {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    z-index: 1;
+}
+
+p {
+    display: inline-block;
+    font-size: 2.4em;
+    margin: 50px 25px;
+    text-transform: uppercase;
+}
+
+p span {
+    display: block;
+    font-size: .4em;
+}
